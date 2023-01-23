@@ -1,0 +1,34 @@
+.history {
+  background-color: #fff;
+  min-height: 90vh;
+
+  &__icon {
+    font-size: 42px;
+  }
+
+  &__out {
+    padding: 120px 0;
+    text-align: center;
+  }
+
+  &__title {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  &__rows {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    flex-wrap: wrap;
+  }
+
+  &__row {
+    border-left: 1px solid black;
+    padding: 0 10px;
+  }
+
+  &__span {
+    font-weight: 700;
+  }
+}

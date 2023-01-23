@@ -1,0 +1,56 @@
+.nav {
+  background-color: #169216;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__itemContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 15px;
+  }
+
+  &__listTitle {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 32px;
+    font-family: 'Cookie', cursive;
+    color: #fff;
+  }
+
+  &__itemMessage {
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.5;
+    cursor: default;
+  }
+
+  &__link {
+    font-size: 18px;
+    color: #fff;
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &--logout {
+      opacity: 0.5;
+      cursor: pointer;
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    &--user {
+      cursor: default;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

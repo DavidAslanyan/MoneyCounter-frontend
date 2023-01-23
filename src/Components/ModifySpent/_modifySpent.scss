@@ -1,0 +1,129 @@
+.modify {
+
+  :focus {
+    outline: none;
+  }
+
+  &__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media(max-width: 860px) {
+      flex-direction: column;
+    }
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    @media(max-width: 860px) {
+      text-align: center;
+    }
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  &__types {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    @media(max-width: 860px) {
+      margin: 0 auto 15px auto;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+
+  &__expenseSpan {
+    color: #ff559c;
+  }
+
+  &__typeSpan {
+    color: #ff559c;
+    text-transform: capitalize;
+  }
+
+  &__typeButton {
+    text-transform: capitalize;
+    width: 100px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    box-shadow: #0000003d 0px 3px 8px;
+    color: #ff559c;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ff559c;
+      border-color: #ff559c;
+      color: #fff;
+    }
+  }
+
+  &__btnIcon {
+    font-size: 28px;
+  }
+
+  &__btnText {
+    text-transform: capitalize;
+    font-size: 18px;
+  }
+
+  &__name {
+    font-weight: 700;
+    padding: 10px;
+  }
+
+  &__input {
+    border: 1px solid #000;
+    padding: 8px 5px;
+    width: 100%;
+    max-width: 250px;
+    font-size: 18px;
+    background-color: inherit;
+  }
+
+  &__message {
+    color: #ff0000;
+    padding: 10px 0;
+  }
+
+  &__submit {
+    margin: 40px 0;
+    padding: 10px 15px;
+    background-color: #ff559c;
+    border: 1px solid #ff559c;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.25s ease;
+    &:hover {
+      box-shadow: #0000003d 0px 3px 8px;
+    }
+  }
+
+  &__turnButton {
+    margin: 40px 0;
+    padding: 10px 15px;
+    background-color: #169216;
+    border: 1px solid #169216;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    &:hover {
+      box-shadow: #0000003d 0px 3px 8px;
+    }
+  }
+  
+}

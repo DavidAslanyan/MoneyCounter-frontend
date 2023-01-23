@@ -1,0 +1,24 @@
+.history {
+  &__title {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  &__rows {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__span {
+    font-weight: 700;
+  }
+
+  &__number {
+    &--plus {
+      color: green;
+    }
+    &--minus {
+      color: red;
+    }
+  }
+}

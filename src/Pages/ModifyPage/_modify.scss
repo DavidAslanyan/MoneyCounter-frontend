@@ -1,0 +1,32 @@
+.modify {
+  // background-image: url(https://img.freepik.com/free-photo/industrial-concrete-floor-textured-background_53876-101636.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: #fff;
+  min-height: 90vh;
+  
+  &__out {
+    padding: 120px 0 0 0;
+    text-align: center;
+  }
+
+  &__icon {
+    font-size: 56px;
+  }
+
+  &__title {
+    font-size: 24px;
+  }
+
+  &__button {
+    font-size: 24px;
+    padding: 5px;
+    background-color: #169216;
+    border: 1px solid #169216;
+    color: #fff;
+  }
+
+  &__link {
+    color: #fff;
+  }
+}

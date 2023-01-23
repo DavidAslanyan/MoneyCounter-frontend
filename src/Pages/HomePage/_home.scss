@@ -1,0 +1,182 @@
+.home {
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: #fff;
+  min-height: 100vh;
+  
+  &__out {
+    text-align: center;
+    padding: 2% 0 0 0;
+    cursor: default;
+  }
+
+  &__gif {
+    max-width: 100%;
+    width: 250px;
+    border-radius: 40%;
+  }
+
+  &__title {
+    padding: 20px 0 20px 0;
+    font-size: 42px;
+    font-weight: 700;
+    color: #169216;
+    text-align: center;
+    cursor: default;
+  }
+
+  &__info {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-weight: 700;
+    line-height: 25px;
+  }
+
+  &__pieChartEarned {
+    position: relative;
+    left: 30px;
+    @media(max-width: 860px) {
+      padding: 10px;
+    }
+  }
+
+  &__pieChartSpent {
+    padding: 8px;
+    position: relative;
+    right: 30px;
+
+    @media(max-width: 860px) {
+      right: 10px;
+      padding: 10px;
+    }
+  }
+
+  &__list {
+    padding: 10px;
+    width: 100%;
+    max-width: 120px;
+    box-shadow: #0000003d 0px 3px 8px;
+  }
+
+  &__earnedItem {
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color:#169216;
+    cursor: default;
+  }
+
+  &__totalEarned {
+    background-color: #169216;
+    color: #fff;
+    padding: 5px 15px;
+    text-align: center;
+    cursor: default;
+  }
+
+  &__totalSpent {
+    background-color: #ff559c;
+    color: #fff;
+    width: 100%;
+    margin: 0 20px 0 0;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: default;
+  }
+
+  &__earned {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    cursor: default;
+
+    @media(max-width: 860px) {
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+
+  &__spent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+
+    @media(max-width: 860px) {
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+
+  &__spentItem {
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #ff0000;
+    cursor: default;
+  }
+
+  &__user {
+    font-size: 18px;
+    color: #169216;
+    cursor: default;
+  }
+
+  &__userCash {
+    background-color: #169216;
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: 1px solid #169216;
+    border-radius: 5px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 18px;
+    cursor: default;
+  }
+
+  &__rows {
+    display: flex;
+    justify-content: space-between;
+
+    @media(max-width: 860px) {
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+    }
+  }
+
+  &__current {
+    padding: 30px 0;
+    line-height: 30px;
+    text-align: center;
+    cursor: default;
+  }
+
+  &__help {
+    font-size: 18px;
+    font-weight: 700;
+    color: #169216;
+    cursor: default;
+  }
+
+  &__addButton {
+    padding: 5px 15px;
+    background-color: #169216;
+    border: 1px solid #169216;
+    border-radius: 8px;
+    transition: 0.25s ease;
+    &:hover {
+      box-shadow: #0000003d 0px 3px 8px;
+    }
+    & a {
+      font-size: 24px;
+      color: #fff;
+    }
+  }
+}

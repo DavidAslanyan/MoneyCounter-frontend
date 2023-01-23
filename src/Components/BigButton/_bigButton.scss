@@ -1,0 +1,16 @@
+.bigButton {
+  font-size: 24px;
+  padding: 5px;
+  background-color: #169216;
+  border: 1px solid #169216;
+  color: #fff;
+  transition: 0.25s ease;
+
+  &:hover {
+    box-shadow: #0000003d 0px 3px 8px;
+  }
+  
+  &__link {
+    color: #fff;
+  }
+}

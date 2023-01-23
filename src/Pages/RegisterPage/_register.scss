@@ -1,0 +1,52 @@
+.register {
+  // background-image: url(https://img.freepik.com/free-photo/industrial-concrete-floor-textured-background_53876-101636.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: #fff;
+  min-height: 100vh;
+  text-align: center;
+
+  &__form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__title {
+    padding: 60px 0 10px 0;
+  }
+
+  &__rowTitle {
+    font-weight: 700;
+  }
+
+  &__input {
+    border: 2px solid #169216;
+    padding: 8px 5px;
+    width: 100%;
+    max-width: 250px;
+    font-size: 18px;
+    background-color: inherit;
+  }
+
+  &__button {
+    font-size: 24px;
+    padding: 5px;
+    background-color: #169216;
+    border: 1px solid #169216;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  &__message {
+    padding: 15px 0;
+    font-weight: 700;
+    color: #ff0000;
+  }
+
+  :focus {
+    outline: none;
+  }
+}

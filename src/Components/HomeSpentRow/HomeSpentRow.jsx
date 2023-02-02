@@ -12,7 +12,7 @@ export function HomeSpentRow() {
   useEffect(() => {
     (async() => {
       try {
-        const resp = await httpClient.get("//localhost:5000/history");
+        const resp = await httpClient.get("//myAPI/history");
         setRows(resp.data)
       } catch(error) {
         throw(error)

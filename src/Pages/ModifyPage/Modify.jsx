@@ -20,7 +20,7 @@ export function Modify() {
 
   useEffect(() => {
     (async() => {
-        const resp = await httpClient.get("//localhost:5000/@me");
+        const resp = await httpClient.get("//myAPI/@me");
         setUser(resp.data);
     })()
   }, [])

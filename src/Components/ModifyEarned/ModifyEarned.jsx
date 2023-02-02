@@ -42,7 +42,7 @@ export function ModifyEarned(props) {
     if (validation()) {
       const newTypeEarned = typeEarned.value
       try {
-        await httpClient.post("//localhost:5000/modify", {
+        await httpClient.post("//myAPI/modify", {
           earned,
           newTypeEarned,
           info,

@@ -29,7 +29,7 @@ export function Login() {
     evt.preventDefault();
     if (validation()) {
       try {
-        await httpClient.post("//localhost:5000/login", {
+        await httpClient.post("//myAPI/login", {
           email,
           password
         });

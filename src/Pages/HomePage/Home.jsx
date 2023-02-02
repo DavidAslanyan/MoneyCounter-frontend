@@ -14,7 +14,7 @@ export function Home() {
   useEffect(() => {
     (async() => {
       try {
-        const resp = await httpClient.get("//localhost:5000/@me");
+        const resp = await httpClient.get("//myAPI/@me");
         setUser(resp.data)
       } catch(error) {
         console.log("User not identified");

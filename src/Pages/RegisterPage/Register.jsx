@@ -53,7 +53,7 @@ export function Register() {
     evt.preventDefault();
       if (validation()) {
         try {
-          await httpClient.post("//localhost:5000/register", {
+          await httpClient.post("//myAPI/register", {
             name,
             date,
             email,

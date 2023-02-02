@@ -14,7 +14,7 @@ export function History() {
   useEffect(() => {
     (async() => {
       try {
-        const resp = await httpClient.get("//localhost:5000/history");
+        const resp = await httpClient.get("//myAPI/history");
         setRows(resp.data)
       } catch(error) {
         console.log("User not identified");
@@ -26,7 +26,7 @@ export function History() {
   useEffect(() => {
     (async() => {
       try {
-        const resp = await httpClient.get("//localhost:5000/@me");
+        const resp = await httpClient.get("//myAPI/@me");
         setUser(resp.data)
       } catch(error) {
         console.log("User not identified");

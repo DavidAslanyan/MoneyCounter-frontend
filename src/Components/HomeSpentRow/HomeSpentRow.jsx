@@ -129,8 +129,6 @@ export function HomeSpentRow() {
   
   }
 
-  console.log(items)
-
   return (
     <section className='home__spent'>
       <PieChart data={items}/>
